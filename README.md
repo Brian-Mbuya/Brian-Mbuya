@@ -1,16 +1,19 @@
-## Hi there 👋
+# Hi there 👋
 
-<!--
-**Brian-Mbuya/Brian-Mbuya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Brian — a computer science student interested in artificial intelligence, machine learning, and modern web design and development.
 
-Here are some ideas to get you started:
+### What I'm working on
+- learning and building small AI and ML projects
+- designing and developing web applications
+- improving problem-solving and clean code practices
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Technologies & tools
+- Python, JavaScript
+- HTML, CSS, React
+- Node.js / Express
+- basic experience with machine learning libraries
+
+### What I enjoy
+Turning ideas into working software and learning how systems actually work under the hood.
+
+Feel free to look around — projects are in progress, more coming soon 🚀
