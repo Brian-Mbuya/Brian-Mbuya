@@ -1,99 +1,74 @@
 # 👋 Hi, I'm Brian
 
 💻 Computer Science Student  
-⚡ Focused on AI, Machine Learning & Full-Stack Development  
-🚀 Building real systems, not just following tutorials  
+🚀 Focused on AI, Machine Learning & Full-Stack Development  
+
+I build systems to understand how they work — then refine them into something better.
 
 ---
 
-## 🧠 About Me
+## 🧠 What I Care About
 
-I'm a developer who enjoys breaking down how systems work and turning ideas into functional software.
-
-Currently focused on:
-- Writing clean, maintainable code
-- Building practical AI/ML projects
-- Developing full-stack web applications
-- Improving problem-solving and system design
+- Writing clean, readable, and maintainable code  
+- Understanding systems beyond surface-level usage  
+- Solving problems with practical, working solutions  
+- Continuous improvement through building  
 
 ---
 
-## 🚧 What I'm Working On
-
-- 🤖 Small AI & Machine Learning projects  
-- 🌐 Full-stack web apps (React + Node.js)  
-- 🧩 Strengthening algorithms & problem-solving  
-- 🛠️ Personal projects that evolve over time  
-
----
-
-## ⚙️ Tech Stack
+## 🧰 Tech Stack
 
 ### 🧑‍💻 Languages
-- Python  
-- JavaScript  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript)
 
 ### 🎨 Frontend
-- HTML  
-- CSS  
-- React  
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react)
 
 ### 🔧 Backend
-- Node.js  
-- Express  
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express)
 
 ### 🧠 AI / ML
-- Basic experience with ML libraries (expanding actively)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-222222?style=for-the-badge)
 
 ---
 
-## 📊 GitHub Stats
+## 🎯 Current Focus
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight" />
-</p>
-
----
-
-## 🚀 Featured Projects
-
-> (Coming soon — actively building)
-
-- 🔹 Project Name — Short one-line description  
-- 🔹 Project Name — What problem it solves  
-- 🔹 Project Name — Tech used + purpose  
+- Building real-world applications that go beyond tutorials  
+- Improving backend structure and system design  
+- Deepening understanding of AI/ML concepts  
+- Writing code that scales and makes sense  
 
 ---
 
-## 🧭 Current Goals
+## ⚙️ How I Work
 
-- Build and deploy more real-world projects  
-- Improve backend architecture & system design  
-- Go deeper into AI/ML (not just surface-level usage)  
+- Start with a simple idea  
+- Break it down into systems  
+- Build, test, and refine  
+- Repeat until it’s solid  
 
 ---
 
-## 💭 Philosophy
+## 👀 What You'll Find Here
 
-> "Understand it. Build it. Improve it."
+Projects that reflect:
+- Growth over time  
+- Experimentation and iteration  
+- Focus on logic, structure, and usability  
 
-I focus on learning by building — and refining over time.
+---
+
+## 💡 Philosophy
+
+> "Good code works. Better code makes sense."
 
 ---
 
 ## 📌 Note
 
-This is an active workspace.  
-Projects here are continuously improving — expect iterations, not perfection.
-
----
-
-## 🤝 Let's Connect
-
-- GitHub: https://github.com/YOUR_USERNAME  
-- (Add LinkedIn or portfolio if you want)
-
----
-
-⭐ If you find something interesting here, feel free to explore or connect.
+This is an active workspace — things evolve, improve, and get rebuilt better.
