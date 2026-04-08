@@ -1,19 +1,99 @@
-# Hi there 👋
+# 👋 Hi, I'm Brian
 
-I'm Brian — a computer science student interested in artificial intelligence, machine learning, and modern web design and development.
+💻 Computer Science Student  
+⚡ Focused on AI, Machine Learning & Full-Stack Development  
+🚀 Building real systems, not just following tutorials  
 
-### What I'm working on
-- learning and building small AI and ML projects
-- designing and developing web applications
-- improving problem-solving and clean code practices
+---
 
-### Technologies & tools
-- Python, JavaScript
-- HTML, CSS, React
-- Node.js / Express
-- basic experience with machine learning libraries
+## 🧠 About Me
 
-### What I enjoy
-Turning ideas into working software and learning how systems actually work under the hood.
+I'm a developer who enjoys breaking down how systems work and turning ideas into functional software.
 
-Feel free to look around — projects are in progress, more coming soon 🚀
+Currently focused on:
+- Writing clean, maintainable code
+- Building practical AI/ML projects
+- Developing full-stack web applications
+- Improving problem-solving and system design
+
+---
+
+## 🚧 What I'm Working On
+
+- 🤖 Small AI & Machine Learning projects  
+- 🌐 Full-stack web apps (React + Node.js)  
+- 🧩 Strengthening algorithms & problem-solving  
+- 🛠️ Personal projects that evolve over time  
+
+---
+
+## ⚙️ Tech Stack
+
+### 🧑‍💻 Languages
+- Python  
+- JavaScript  
+
+### 🎨 Frontend
+- HTML  
+- CSS  
+- React  
+
+### 🔧 Backend
+- Node.js  
+- Express  
+
+### 🧠 AI / ML
+- Basic experience with ML libraries (expanding actively)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+> (Coming soon — actively building)
+
+- 🔹 Project Name — Short one-line description  
+- 🔹 Project Name — What problem it solves  
+- 🔹 Project Name — Tech used + purpose  
+
+---
+
+## 🧭 Current Goals
+
+- Build and deploy more real-world projects  
+- Improve backend architecture & system design  
+- Go deeper into AI/ML (not just surface-level usage)  
+
+---
+
+## 💭 Philosophy
+
+> "Understand it. Build it. Improve it."
+
+I focus on learning by building — and refining over time.
+
+---
+
+## 📌 Note
+
+This is an active workspace.  
+Projects here are continuously improving — expect iterations, not perfection.
+
+---
+
+## 🤝 Let's Connect
+
+- GitHub: https://github.com/YOUR_USERNAME  
+- (Add LinkedIn or portfolio if you want)
+
+---
+
+⭐ If you find something interesting here, feel free to explore or connect.
