@@ -11,7 +11,7 @@ Current direction:
 AI/ML systems  |  Backend architecture  |  Full-stack products  |  Data-driven decision logic
 ```
 
-## Engineering Focus
+## ⚙️ Engineering Focus
 
 - Designing backend systems with clear domain logic and maintainable structure
 - Building AI-assisted features that are explainable, testable, and useful
@@ -19,7 +19,7 @@ AI/ML systems  |  Backend architecture  |  Full-stack products  |  Data-driven d
 - Developing full-stack applications with authentication, dashboards, uploads, reviews, and admin controls
 - Improving projects through iteration, testing, deployment, and better system design
 
-## Featured Systems
+## 🚀 Featured Systems
 
 | Project | Type | Technical Highlights |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ AI/ML systems  |  Backend architecture  |  Full-stack products  |  Data-driven d
 | [Real Estate Listing Platform](https://github.com/Brian-Mbuya/real-estate-web-site) | Data-driven web platform | Property ranking, content-based recommendation logic, weighted scoring, structured listing data, PHP/MySQL backend, explainable decision flow |
 | Lovedogs 360 | Mobile + API system | FastAPI backend, PostgreSQL, JWT authentication, React Native frontend, Docker Compose, simulated biometric identification, service marketplace foundation |
 
-## Tech Stack
+## 🧰 Tech Stack
 
 ### Languages
 
@@ -59,7 +59,7 @@ AI/ML systems  |  Backend architecture  |  Full-stack products  |  Data-driven d
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=F7931E)
 ![Maven](https://img.shields.io/badge/Maven-0D1117?style=for-the-badge&logo=apachemaven&logoColor=C71A36)
 
-## Technical Themes
+## 🧠 Technical Themes
 
 ```text
 Backend Architecture
@@ -75,19 +75,19 @@ Production Mindset
   testing, environment variables, deployment configs, database-backed systems, API design
 ```
 
-## How I Build
+## 🔧 How I Build
 
 I like systems where the logic is visible.
 
 Black-box features can look impressive, but I care more about software that can be explained, tested, debugged, and improved. Whether it is a fraud detector, recommendation engine, academic submission platform, or mobile API, the goal is the same: build something that works, then make the structure stronger.
 
-## GitHub Metrics
+## 📊 GitHub Metrics
 
 ![Brian's GitHub stats](https://github-readme-stats.vercel.app/api?username=Brian-Mbuya&show_icons=true&theme=github_dark&hide_border=true)
 
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Brian-Mbuya&layout=compact&theme=github_dark&hide_border=true)
 
-## Current Trajectory
+## 📌 Current Trajectory
 
 I am actively improving in:
 
