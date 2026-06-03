@@ -81,11 +81,14 @@ I like systems where the logic is visible.
 
 Black-box features can look impressive, but I care more about software that can be explained, tested, debugged, and improved. Whether it is a fraud detector, recommendation engine, academic submission platform, or mobile API, the goal is the same: build something that works, then make the structure stronger.
 
-## 📊 GitHub Metrics
+## 📊 Project Signal
 
-![Brian's GitHub stats](https://github-readme-stats.vercel.app/api?username=Brian-Mbuya&show_icons=true&theme=github_dark&hide_border=true)
+My repositories focus on systems with practical engineering depth:
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Brian-Mbuya&layout=compact&theme=github_dark&hide_border=true)
+- Backend services with authentication, roles, dashboards, and database-backed workflows
+- Applied AI features such as anomaly detection, ranking, recommendations, and insights
+- Full-stack applications that connect interface design with real domain logic
+- Projects that keep improving through clearer structure, testing, and deployment readiness
 
 ## 📌 Current Trajectory
 
