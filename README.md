@@ -6,7 +6,7 @@
   <p>
     <a href="https://www.linkedin.com/in/brian-mbuya-23225541b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="https://github.com/Brian-Mbuya"><img src="https://img.shields.io/github/followers/Brian-Mbuya?style=for-the-badge&color=c99a3f&labelColor=141b23&logo=github" alt="Followers" /></a>
-    <a href="https://github.com/Brian-Mbuya?tab=repositories"><img src="https://img.shields.io/badge/Repositories-9+-3987e5?style=for-the-badge&labelColor=141b23&logo=git" alt="Repositories" /></a>
+    <a href="https://github.com/Brian-Mbuya?tab=repositories"><img src="https://img.shields.io/badge/Repositories-10+-3987e5?style=for-the-badge&labelColor=141b23&logo=git" alt="Repositories" /></a>
   </p>
 
 </div>
@@ -15,9 +15,9 @@
 
 ### ⚡ Executive Summary
 
-Software Engineer specializing in offline-first Progressive Web Apps, secure multi-tenant backend architectures (Spring Boot, FastAPI, Supabase), and applied machine learning (Isolation Forest fraud detection). Focused on test-driven development, deterministic state recovery, and high-concurrency database design.
+Software Engineer specializing in offline-first Progressive Web Apps, secure multi-tenant backend architectures (Spring Boot, FastAPI, Supabase, PHP), and applied machine learning (Isolation Forest fraud detection). Focused on test-driven development, deterministic state recovery, and high-concurrency database design.
 
-> **Core Pillars:** Offline-First PWA Engine &nbsp;|&nbsp; Applied AI & Fraud Detection &nbsp;|&nbsp; Zero-Trust Security &nbsp;|&nbsp; TypeScript & React
+> **Core Pillars:** Offline-First PWA Engines &nbsp;|&nbsp; Applied AI & Fraud Detection &nbsp;|&nbsp; Zero-Trust Security &nbsp;|&nbsp; TypeScript & React
 
 ---
 
@@ -29,6 +29,7 @@ Software Engineer specializing in offline-first Progressive Web Apps, secure mul
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
 </p>
@@ -36,9 +37,9 @@ Software Engineer specializing in offline-first Progressive Web Apps, secure mul
 ### 🚀 Frontend & PWA
 <p align="left">
   <img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Vite_8-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/PWA_Workbox-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" />
-  <img src="https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/PWA_Service_Worker-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" />
+  <img src="https://img.shields.io/badge/Leaflet.js_Maps-199900?style=for-the-badge&logo=leaflet&logoColor=white" />
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
@@ -52,16 +53,6 @@ Software Engineer specializing in offline-first Progressive Web Apps, secure mul
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Supabase_RLS-3ECF8E?style=for-the-badge&logo=supabase&logoColor=black" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
-</p>
-
-### 🤖 Applied AI & DevOps
-<p align="left">
-  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
 ---
@@ -86,6 +77,23 @@ Software Engineer specializing in offline-first Progressive Web Apps, secure mul
       <p>👉 <a href="https://github.com/Brian-Mbuya/inspection-tracker"><strong>Explore Repository</strong></a></p>
     </td>
     <td width="50%">
+      <h3 align="center">🏠 Reality Kisumu Hub</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/PWA-Leaflet_Maps-0b192c?style=flat-square" />
+        <img src="https://img.shields.io/badge/JavaScript-PHP_MySQL-blue?style=flat-square" />
+      </p>
+      <p><strong>Kisumu Real Estate & Property Marketplace PWA</strong></p>
+      <ul>
+        <li><strong>Smart Scoring:</strong> Multi-signal relevance match algorithm.</li>
+        <li><strong>Interactive Map:</strong> Leaflet.js neighborhood property markers.</li>
+        <li><strong>Mortgage Calc:</strong> KSh down payment & repayment estimator.</li>
+        <li><strong>Comparison:</strong> Side-by-side property matrix modal.</li>
+      </ul>
+      <p>👉 <a href="https://github.com/Brian-Mbuya/real-estate-web-site"><strong>Repository</strong></a> | <a href="https://real-estate-web-site-one.vercel.app"><strong>Live PWA App</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
       <h3 align="center">🛡️ M-Pesa Fraud Engine</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Python-Isolation_Forest-orange?style=flat-square" />
@@ -96,12 +104,9 @@ Software Engineer specializing in offline-first Progressive Web Apps, secure mul
         <li><strong>Machine Learning:</strong> Isolation Forest for zero-day fraud.</li>
         <li><strong>Feature Engineering:</strong> Calibrated risk scoring engine.</li>
         <li><strong>Synthetic Data:</strong> Simulated mobile money transactions.</li>
-        <li><strong>Analytics:</strong> Modular package with evaluation visualizers.</li>
       </ul>
       <p>👉 <a href="https://github.com/Brian-Mbuya/mpesa-fraud-detection"><strong>Explore Repository</strong></a></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <h3 align="center">🎓 UniSubmit Academic Portal</h3>
       <p align="center">
@@ -116,29 +121,15 @@ Software Engineer specializing in offline-first Progressive Web Apps, secure mul
       </ul>
       <p>👉 <a href="https://github.com/Brian-Mbuya/unisubmit"><strong>Explore Repository</strong></a></p>
     </td>
-    <td width="50%">
-      <h3 align="center">🎨 Adaptive Theme Engine</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/TypeScript-Core-blue?style=flat-square" />
-        <img src="https://img.shields.io/badge/Architecture-Modular-purple?style=flat-square" />
-      </p>
-      <p><strong>Dynamic Modular TypeScript Theme Management Library</strong></p>
-      <ul>
-        <li><strong>TypeScript Engine:</strong> Type-safe dynamic theme orchestration.</li>
-        <li><strong>Adaptive State:</strong> Real-time palette updates across components.</li>
-        <li><strong>Zero Dependencies:</strong> Lightweight, ultra-fast runtime footprint.</li>
-      </ul>
-      <p>👉 <a href="https://github.com/Brian-Mbuya/adaptive-theme-engine"><strong>Explore Repository</strong></a></p>
-    </td>
   </tr>
 </table>
 
 <details>
-  <summary>🔍 <strong>View More (Best Western Hotel Production, Real Estate Engine, Local AI)</strong></summary>
+  <summary>🔍 <strong>View More (Best Western Hotel Production, Adaptive Theme Engine, Local AI)</strong></summary>
   <br />
   <ul>
     <li><strong>🏢 <a href="https://best-western-plus-meridian-hotel.vercel.app">Best Western Plus Meridian Hotel</a>:</strong> Live production guest engagement portal deployed on Vercel infrastructure.</li>
-    <li><strong>🏠 <a href="https://github.com/Brian-Mbuya/real-estate-web-site">Real Estate Ranking Engine</a>:</strong> Data-driven property listing platform using weighted scoring algorithms.</li>
+    <li><strong>🎨 <a href="https://github.com/Brian-Mbuya/adaptive-theme-engine">Adaptive Theme Engine</a>:</strong> Dynamic modular TypeScript theme management library.</li>
     <li><strong>🤖 <a href="https://github.com/Brian-Mbuya/local-ai-setup">Local AI Setup Workflows</a>:</strong> PowerShell automation scripts for orchestrating local LLM environments (Ollama).</li>
   </ul>
 </details>
@@ -157,11 +148,11 @@ Software Engineer specializing in offline-first Progressive Web Apps, secure mul
 
 <div align="center">
 
-  <img src="https://streak-stats.demolab.com?user=Brian-Mbuya&theme=dark&background=141b23&ring=c99a3f&fire=c99a3f&currStreakLabel=c99a3f" width="97%" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=Brian-Mbuya&theme=dark&background=141b23&ring=c99a3f&fire=c99a3f&currStreakLabel=c99a3f&v=2" width="97%" alt="GitHub Streak" />
 
   <br /><br />
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Brian-Mbuya&theme=react-dark" width="97%" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Brian-Mbuya&theme=react-dark&v=2" width="97%" alt="Contribution Graph" />
 
 </div>
 
@@ -177,8 +168,8 @@ Software Engineer specializing in offline-first Progressive Web Apps, secure mul
   <a href="https://github.com/Brian-Mbuya">
     <img src="https://img.shields.io/badge/GitHub-Profile-141b23?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://best-western-plus-meridian-hotel.vercel.app">
-    <img src="https://img.shields.io/badge/Live_App-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <a href="https://real-estate-web-site-one.vercel.app">
+    <img src="https://img.shields.io/badge/Live_PWA-Kisumu_Realty-0b192c?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 
 </div>
