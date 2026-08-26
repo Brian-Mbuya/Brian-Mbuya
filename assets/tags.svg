@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 56" role="img" aria-label="Focus areas: Full-Stack, Backend, Applied AI, Payments and M-Pesa, Reliability.">
+  <defs>
+    <linearGradient id="pill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.02"/></linearGradient>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      rect.p{transform-box:fill-box;transform-origin:center;animation:br 5s ease-in-out infinite}
+      @keyframes br{0%,100%{opacity:1}50%{opacity:.66}}
+      @media (prefers-reduced-motion: reduce){rect.p{animation:none !important}}
+    </style>
+  </defs>
+  <g class="mono" font-size="14" fill="#cdbdf7">
+    <g><rect class="p" x="40"  y="12" width="126" height="34" rx="17" fill="url(#pill)" stroke="#8b5cf6" stroke-opacity="0.55"/><text x="62"  y="34">Full-Stack</text></g>
+    <g><rect class="p" x="180" y="12" width="112" height="34" rx="17" fill="url(#pill)" stroke="#8b5cf6" stroke-opacity="0.55" style="animation-delay:.4s"/><text x="202" y="34">Backend</text></g>
+    <g><rect class="p" x="306" y="12" width="132" height="34" rx="17" fill="url(#pill)" stroke="#8b5cf6" stroke-opacity="0.55" style="animation-delay:.8s"/><text x="328" y="34">Applied AI</text></g>
+    <g><rect class="p" x="452" y="12" width="188" height="34" rx="17" fill="url(#pill)" stroke="#8b5cf6" stroke-opacity="0.55" style="animation-delay:1.2s"/><text x="474" y="34">Payments &amp; M-Pesa</text></g>
+    <g><rect class="p" x="654" y="12" width="132" height="34" rx="17" fill="url(#pill)" stroke="#8b5cf6" stroke-opacity="0.55" style="animation-delay:1.6s"/><text x="676" y="34">Reliability</text></g>
+  </g>
+</svg>

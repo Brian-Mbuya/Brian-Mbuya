@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 46 1000 228" role="img" aria-label="What I build: full-stack products end to end — UI, APIs, data models, the whole product. Reliability first: failure-case first — retries, offline, idempotency. Ship real things: real users and real payments, in production. Applied AI: search, matching, and evaluation you can trust.">
+  <defs>
+    <clipPath id="c"><rect x="0" y="46" width="1000" height="228" rx="4"/></clipPath>
+    <linearGradient id="title" x1="0" x2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <linearGradient id="ig" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+    <linearGradient id="cardfill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.015"/></linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .sans{font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,sans-serif}
+      .ic{transform-box:fill-box;transform-origin:center;animation:fl 5s ease-in-out infinite}
+      @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+      @media (prefers-reduced-motion: reduce){.ic{animation:none !important}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#c)">
+    <rect y="40" width="1000" height="240" fill="#0a0812"/>
+
+    <!-- 4 cards -->
+    <g>
+      <rect x="40" y="74" width="216" height="188" rx="14" fill="url(#cardfill)" stroke="#7c3aed" stroke-opacity="0.35"/>
+      <rect x="274" y="74" width="216" height="188" rx="14" fill="url(#cardfill)" stroke="#7c3aed" stroke-opacity="0.35"/>
+      <rect x="508" y="74" width="216" height="188" rx="14" fill="url(#cardfill)" stroke="#7c3aed" stroke-opacity="0.35"/>
+      <rect x="742" y="74" width="216" height="188" rx="14" fill="url(#cardfill)" stroke="#7c3aed" stroke-opacity="0.35"/>
+    </g>
+
+    <!-- icons -->
+    <g fill="none" stroke="url(#ig)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+      <g class="ic"><path d="M76 120 l-12 11 l12 11 M92 120 l12 11 l-12 11 M88 116 l-8 30"/></g>
+      <g class="ic" style="animation-delay:.5s"><path d="M322 112 l18 7 v13 c0 12 -9 19 -18 24 c-9 -5 -18 -12 -18 -24 v-13 z"/></g>
+      <g class="ic" style="animation-delay:1s"><path d="M556 152 c0 -22 10 -38 20 -44 c10 6 20 22 20 44 l-13 -7 h-14 z M563 150 l-9 12 M589 150 l9 12"/></g>
+      <g class="ic" style="animation-delay:1.5s"><path d="M810 112 v40 M790 132 h40 M797 118 l26 28 M823 118 l-26 28"/></g>
+    </g>
+
+    <!-- text -->
+    <g class="sans">
+      <text x="76"  y="192" fill="#eee9fb" font-size="18" font-weight="700">What I build</text>
+      <text x="76"  y="220" fill="#9b93b8" font-size="13">UI, APIs, data models —</text>
+      <text x="76"  y="238" fill="#9b93b8" font-size="13">the whole product.</text>
+
+      <text x="310" y="192" fill="#eee9fb" font-size="18" font-weight="700">Reliability first</text>
+      <text x="310" y="220" fill="#9b93b8" font-size="13">Failure-case first: retries,</text>
+      <text x="310" y="238" fill="#9b93b8" font-size="13">offline, idempotency.</text>
+
+      <text x="544" y="192" fill="#eee9fb" font-size="18" font-weight="700">Ship real things</text>
+      <text x="544" y="220" fill="#9b93b8" font-size="13">Real users and real</text>
+      <text x="544" y="238" fill="#9b93b8" font-size="13">payments, in production.</text>
+
+      <text x="778" y="192" fill="#eee9fb" font-size="18" font-weight="700">Applied AI</text>
+      <text x="778" y="220" fill="#9b93b8" font-size="13">Search, matching, and</text>
+      <text x="778" y="238" fill="#9b93b8" font-size="13">evaluation you can trust.</text>
+    </g>
+  </g>
+</svg>
