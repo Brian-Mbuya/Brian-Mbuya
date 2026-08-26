@@ -3,11 +3,11 @@
     <clipPath id="win"><rect x="8" y="8" width="844" height="356" rx="10"/></clipPath>
     <style>
       .m{font-family:ui-monospace,SFMono-Regular,"Cascadia Code",Menlo,Consolas,monospace;font-size:16px}
-      .prompt{fill:#3fb950}.host{fill:#8b949e}.cmd{fill:#e6edf3}.out{fill:#adbac7}
-      .cmt{fill:#d29922}.arrow{fill:#3fb950}.name{fill:#f0f6fc;font-weight:600}
+      .prompt{fill:#e3b341}.host{fill:#8b949e}.cmd{fill:#e6edf3}.out{fill:#adbac7}
+      .cmt{fill:#d29922}.arrow{fill:#e3b341}.name{fill:#f0f6fc;font-weight:600}
       .ln{animation:appear .4s ease both;transform-box:fill-box}
       @keyframes appear{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
-      .cur{fill:#3fb950;animation:blink 1.06s step-end infinite}
+      .cur{fill:#e3b341;animation:blink 1.06s step-end infinite}
       @keyframes blink{50%{opacity:0}}
       @media (prefers-reduced-motion:reduce){.ln{animation:none}.cur{animation:none}}
     </style>
