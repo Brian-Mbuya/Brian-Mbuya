@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 512" role="img" aria-label="What I build: full-stack products end to end. Reliability first: retries, offline, idempotency. Ship real things: real users and real payments in production. Applied AI: search, matching, and evaluation you can trust.">
+  <defs>
+    <clipPath id="cm"><rect x="0" y="0" width="520" height="512" rx="4"/></clipPath>
+    <linearGradient id="cmig" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+    <linearGradient id="cmfill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.015"/></linearGradient>
+    <filter id="cmglow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .sans{font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,sans-serif}
+      .ic{transform-box:fill-box;transform-origin:center;animation:fl 5s ease-in-out infinite}
+      @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+      @media (prefers-reduced-motion: reduce){.ic{animation:none!important}}
+    </style>
+  </defs>
+  <g clip-path="url(#cm)">
+    <rect width="520" height="512" fill="#0a0812"/>
+
+    <!-- cards -->
+    <g>
+      <rect x="16"  y="16"  width="236" height="232" rx="16" fill="url(#cmfill)" stroke="#7c3aed" stroke-opacity="0.35"/>
+      <rect x="268" y="16"  width="236" height="232" rx="16" fill="url(#cmfill)" stroke="#7c3aed" stroke-opacity="0.35"/>
+      <rect x="16"  y="264" width="236" height="232" rx="16" fill="url(#cmfill)" stroke="#7c3aed" stroke-opacity="0.35"/>
+      <rect x="268" y="264" width="236" height="232" rx="16" fill="url(#cmfill)" stroke="#7c3aed" stroke-opacity="0.35"/>
+    </g>
+
+    <!-- icon plates -->
+    <g fill="rgba(139,92,246,0.12)" stroke="#241d3a">
+      <rect x="40"  y="40"  width="50" height="50" rx="13"/>
+      <rect x="292" y="40"  width="50" height="50" rx="13"/>
+      <rect x="40"  y="288" width="50" height="50" rx="13"/>
+      <rect x="292" y="288" width="50" height="50" rx="13"/>
+    </g>
+    <g fill="none" stroke="url(#cmig)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" filter="url(#cmglow)">
+      <g transform="translate(53,53)"><g class="ic"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4M13 6l-2 12"/></g></g>
+      <g transform="translate(305,53)"><g class="ic" style="animation-delay:.5s"><path d="M12 3l7 3v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></g></g>
+      <g transform="translate(53,301)"><g class="ic" style="animation-delay:1s"><path d="M12 3c2.5 2.2 4 5 4 8l-2.4-1.2-1.6 1.6-1.6-1.6L8 11c0-3 1.5-5.8 4-8z"/><path d="M9.5 15l2.5 1.6 2.5-1.6"/></g></g>
+      <g transform="translate(305,301)"><g class="ic" style="animation-delay:1.5s"><path d="M12 3v18M3 12h18M6 6l12 12M18 6 6 18"/></g></g>
+    </g>
+
+    <!-- text -->
+    <g class="sans">
+      <text x="42"  y="130" fill="#eee9fb" font-size="19" font-weight="700">What I build</text>
+      <text x="42"  y="160" fill="#9b93b8" font-size="13.5">UI, APIs, data models —</text>
+      <text x="42"  y="180" fill="#9b93b8" font-size="13.5">the whole product.</text>
+
+      <text x="294" y="130" fill="#eee9fb" font-size="19" font-weight="700">Reliability first</text>
+      <text x="294" y="160" fill="#9b93b8" font-size="13.5">Retries, offline,</text>
+      <text x="294" y="180" fill="#9b93b8" font-size="13.5">idempotency.</text>
+
+      <text x="42"  y="378" fill="#eee9fb" font-size="19" font-weight="700">Ship real things</text>
+      <text x="42"  y="408" fill="#9b93b8" font-size="13.5">Real users and real</text>
+      <text x="42"  y="428" fill="#9b93b8" font-size="13.5">payments, in production.</text>
+
+      <text x="294" y="378" fill="#eee9fb" font-size="19" font-weight="700">Applied AI</text>
+      <text x="294" y="408" fill="#9b93b8" font-size="13.5">Search, matching, and</text>
+      <text x="294" y="428" fill="#9b93b8" font-size="13.5">evaluation you trust.</text>
+    </g>
+  </g>
+</svg>
