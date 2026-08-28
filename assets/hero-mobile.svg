@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 392" role="img" aria-label="Terminal. brian@nairobi ~ % whoami — Brian Mbuya, full-stack engineer, Nairobi. cat approach.md — build for the failure case, not the happy path (works in prod, not just my machine). ./status — shipping Chuka Hostels, real students, real M-Pesa. Open to work.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 416" role="img" aria-label="Terminal. Brian Mbuya, product-minded full-stack engineer in Nairobi. Builds for weak networks, delayed payments, and failure paths. Three live products across housing and hotel operations. Available for full-stack, backend, and product roles.">
   <defs>
-    <clipPath id="mwin"><rect x="8" y="8" width="464" height="376" rx="10"/></clipPath>
+    <clipPath id="mwin"><rect x="8" y="8" width="464" height="400" rx="10"/></clipPath>
     <style>
       .m{font-family:ui-monospace,SFMono-Regular,"Cascadia Code",Menlo,Consolas,monospace;font-size:15px}
       .prompt{fill:#e3b341}.host{fill:#8b949e}.cmd{fill:#e6edf3}.out{fill:#adbac7}
-      .cmt{fill:#d29922}.arrow{fill:#e3b341}.name{fill:#f0f6fc;font-weight:600}
+      .cmt{fill:#d2a84b}.arrow{fill:#e3b341}.name{fill:#f0f6fc;font-weight:700}.key{fill:#8b949e}
       .ln{animation:appear .4s ease both;transform-box:fill-box}
       @keyframes appear{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
       .cur{fill:#e3b341;animation:blink 1.06s step-end infinite}
@@ -12,26 +12,28 @@
       @media (prefers-reduced-motion:reduce){.ln{animation:none}.cur{animation:none}}
     </style>
   </defs>
-  <rect x="8.5" y="8.5" width="463" height="375" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <rect x="8.5" y="8.5" width="463" height="399" rx="10" fill="#0d1117" stroke="#30363d"/>
   <g clip-path="url(#mwin)">
     <rect x="8" y="8" width="464" height="38" fill="#161b22"/>
     <line x1="8" y1="46" x2="472" y2="46" stroke="#30363d"/>
     <circle cx="32" cy="27" r="5.5" fill="#f85149"/><circle cx="50" cy="27" r="5.5" fill="#d29922"/><circle cx="68" cy="27" r="5.5" fill="#3fb950"/>
     <text x="244" y="31" text-anchor="middle" class="m" fill="#6e7681" font-size="12">brian@nairobi — zsh</text>
 
-    <text class="m ln" x="24" y="84"><tspan class="prompt">brian@nairobi</tspan><tspan class="host"> ~ %</tspan><tspan class="cmd"> whoami</tspan></text>
+    <text class="m ln" x="24" y="84"><tspan class="prompt">brian@nairobi</tspan><tspan class="host" dx="7">~ %</tspan><tspan class="cmd" dx="7">whoami</tspan></text>
     <text class="m ln" x="24" y="108" style="animation-delay:.25s"><tspan class="name">Brian Mbuya</tspan></text>
-    <text class="m ln out" x="24" y="130" style="animation-delay:.4s">full-stack engineer · Nairobi</text>
+    <text class="m ln out" x="24" y="130" style="animation-delay:.4s">product-minded full-stack engineer</text>
+    <text class="m ln out" x="24" y="152" style="animation-delay:.5s">Nairobi · UTC+3</text>
 
-    <text class="m ln" x="24" y="170" style="animation-delay:.7s"><tspan class="prompt">brian@nairobi</tspan><tspan class="host"> ~ %</tspan><tspan class="cmd"> cat approach.md</tspan></text>
-    <text class="m ln cmt" x="24" y="192" style="animation-delay:.9s">// build for the failure case,</text>
-    <text class="m ln cmt" x="24" y="212" style="animation-delay:1.05s">// not the happy path</text>
-    <text class="m ln" x="24" y="232" style="animation-delay:1.2s" fill="#6e7681">// (works in prod, not just my machine)</text>
+    <text class="m ln" x="24" y="190" style="animation-delay:.7s"><tspan class="prompt">brian@nairobi</tspan><tspan class="host" dx="7">~ %</tspan><tspan class="cmd" dx="7">cat approach.md</tspan></text>
+    <text class="m ln cmt" x="24" y="212" style="animation-delay:.9s">// weak networks · delayed payments</text>
+    <text class="m ln cmt" x="24" y="232" style="animation-delay:1.05s">// failure paths</text>
+    <text class="m ln out" x="24" y="254" style="animation-delay:1.2s">production starts where happy paths end.</text>
 
-    <text class="m ln" x="24" y="272" style="animation-delay:1.5s"><tspan class="prompt">brian@nairobi</tspan><tspan class="host"> ~ %</tspan><tspan class="cmd"> ./status</tspan></text>
-    <text class="m ln" x="24" y="294" style="animation-delay:1.7s"><tspan class="arrow">▸</tspan><tspan class="out"> shipping </tspan><tspan class="name">Chuka Hostels</tspan></text>
-    <text class="m ln out" x="24" y="316" style="animation-delay:1.85s"><tspan class="arrow">▸</tspan> real students, real M-Pesa</text>
-    <text class="m ln" x="24" y="338" style="animation-delay:2s"><tspan class="arrow">▸</tspan><tspan class="out"> open to work</tspan></text>
-    <rect class="cur" x="166" y="327" width="8" height="15"/>
+    <text class="m ln" x="24" y="294" style="animation-delay:1.5s"><tspan class="prompt">brian@nairobi</tspan><tspan class="host" dx="7">~ %</tspan><tspan class="cmd" dx="7">./status</tspan></text>
+    <text class="m ln" x="24" y="318" style="animation-delay:1.7s"><tspan class="key">live:</tspan><tspan class="name" dx="9">3 products</tspan></text>
+    <text class="m ln out" x="24" y="340" style="animation-delay:1.85s">housing · hotel ops · hospitality</text>
+    <text class="m ln" x="24" y="364" style="animation-delay:2s"><tspan class="key">available:</tspan><tspan class="out" dx="9">full-stack · backend</tspan></text>
+    <text class="m ln out" x="24" y="386" style="animation-delay:2.1s">product engineering</text>
+    <rect class="cur" x="190" y="374" width="8" height="15"/>
   </g>
 </svg>

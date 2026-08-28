@@ -2,34 +2,42 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg" />
-  <img src="assets/hero.svg" width="100%" alt="Terminal — brian@nairobi ~ % whoami → Brian Mbuya, full-stack engineer, Nairobi, UTC+3. Building for the failure case. Shipping Chuka Hostels on real M-Pesa. Open to work." />
+  <img src="assets/hero.svg" width="100%" alt="Terminal introduction for Brian Mbuya, a product-minded full-stack engineer in Nairobi who builds for weak networks, delayed payments, and failure paths." />
 </picture>
 
-### Open to full-stack · backend · product roles &nbsp;→&nbsp; [**Start a conversation**](mailto:mbuyabrian290@gmail.com)
+### Building dependable products for the real world.
+
+Open to **full-stack**, **backend**, and **product engineering** roles &nbsp;·&nbsp; [**Start a conversation →**](mailto:mbuyabrian290@gmail.com)
 
 [LinkedIn](https://www.linkedin.com/in/brian-mbuya-23225541b) &nbsp;·&nbsp; [Email](mailto:mbuyabrian290@gmail.com) &nbsp;·&nbsp; [GitHub](https://github.com/Brian-Mbuya)
 
 </div>
 
-## `~/work` — a few things I've shipped
+## `~/work` — live products
 
-### [Chuka Hostels](https://chukahostels.co.ke) &nbsp;·&nbsp; live product
+### [Chuka Hostels ↗](https://chuka-hostels.vercel.app/) &nbsp; `live`
 
-A student-housing marketplace for Chuka University, built for entry-level Android phones paying for data by the megabyte. **Live at [chukahostels.co.ke](https://chukahostels.co.ke), ranking on Google for its market, with ~95% of traffic from Kenya and real KES 150 M-Pesa unlocks.** The paywall is a TypeScript type, not a runtime check — settlement-confirmed payments and a no-JavaScript operations dashboard behind it.
+**A student-housing marketplace built for weak networks and entry-level Android phones.** Students can browse real listings, compare walking times, and unlock contact details through M-Pesa. Paid access is granted only after settlement confirmation, with a no-JavaScript operations path behind it.
 
 `Next.js 16` · `React 19` · `TypeScript` · `Supabase` · `M-Pesa` · `Tailwind`
 
-### [UniSubmit](https://github.com/Brian-Mbuya/unisubmit)
+### [Inspection Tracker ↗](https://inspection-tracker-two.vercel.app/) &nbsp; `live`
 
-An academic submission platform with an explainable AI layer: **six-signal collaborator matching with per-signal reasons, measured with precision@5 / MRR** — plus duplicate detection, hybrid search, and honest fallback when no AI service is configured.
+**An offline-first hotel operations PWA for room inspections, IT assets, and stock.** Work queues survive unreliable corridor Wi-Fi and drain in order when connectivity returns. Role-based handovers, Opera PMS imports, and audit trails keep inspection work accountable.
 
-`Spring Boot` · `Java` · `PostgreSQL / pgvector` · `SPECTER2` · `Python`
+`React 19` · `Vite` · `Supabase` · `PWA / Workbox` · `Recharts` · `Vitest`
 
-### [Best Western Plus Meridian](https://best-western-plus-meridian-hotel.vercel.app)
+### [Best Western Plus Meridian ↗](https://best-western-plus-meridian-hotel.vercel.app/) &nbsp; `live`
 
-A production hotel experience — magazine-style, **accessible (WCAG)**, and dependency-light. Modular sections and a full-screen gallery, no framework in sight.
+**A responsive digital brochure and booking experience for a Nairobi hotel.** The magazine-style interface combines modular content, accessible navigation, booking flows, and a full-screen categorized gallery without a framework.
 
 `Semantic HTML` · `CSS` · `Vanilla JS`
+
+### `~/lab` — deeper systems work
+
+[**UniSubmit ↗**](https://github.com/Brian-Mbuya/unisubmit) — an academic submission platform with explainable six-signal collaborator matching, hybrid search, duplicate detection, and measured recommender quality.
+
+`Spring Boot` · `Java` · `PostgreSQL / pgvector` · `SPECTER2` · `Python`
 
 <br>
 
@@ -37,6 +45,6 @@ A production hotel experience — magazine-style, **accessible (WCAG)**, and dep
 
 <img src="assets/philosophy.svg" width="100%" alt="git commit -m 'leave it better than I found it' — a principle, not a slogan, it's in every codebase I touch." />
 
-<sub>More work is pinned right below ↓</sub>
+<sub>More work is pinned below.</sub>
 
 </div>

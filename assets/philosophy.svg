@@ -1,27 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 132" role="img" aria-label="git commit -m 'leave it better than I found it' — a principle, not a slogan.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 132" role="img" aria-label="git commit -m 'leave it better than I found it' — a principle, not a slogan.">
   <defs>
-    <clipPath id="type"><rect x="24" y="30" width="0" height="34"><animate attributeName="width" from="0" to="566" begin="0.3s" dur="2.2s" fill="freeze"/></rect></clipPath>
     <style>
       .m{font-family:ui-monospace,SFMono-Regular,"Cascadia Code",Menlo,Consolas,monospace}
-      .cur{fill:#e3b341;animation:blink 1.06s step-end infinite;animation-delay:2.5s}
+      .cur{fill:#e3b341;animation:blink 1.06s step-end infinite}
       @keyframes blink{50%{opacity:0}}
-      .line2{opacity:0;animation:fin .6s ease 2.7s forwards}
-      @keyframes fin{to{opacity:1}}
-      .uline{stroke-dasharray:340;stroke-dashoffset:340;animation:draw .7s ease 2.5s forwards}
-      @keyframes draw{to{stroke-dashoffset:0}}
-      @media (prefers-reduced-motion:reduce){
-        .cur{animation:none}.line2{animation:none;opacity:1}.uline{animation:none;stroke-dashoffset:0}
-      }
+      @media (prefers-reduced-motion:reduce){.cur{animation:none}}
     </style>
   </defs>
 
-  <rect x="0.75" y="0.75" width="818.5" height="130.5" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <rect x="0.75" y="0.75" width="918.5" height="130.5" rx="12" fill="#0d1117" stroke="#30363d"/>
 
-  <g clip-path="url(#type)">
-    <text class="m" x="28" y="56" font-size="18"><tspan fill="#e3b341">$</tspan><tspan fill="#8b949e"> git commit -m </tspan><tspan fill="#e6edf3">"leave it better than I found it"</tspan></text>
-  </g>
-  <path class="uline" d="M212 66 H548" stroke="#e3b341" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+  <text class="m" x="28" y="56" font-size="18"><tspan fill="#e3b341">$</tspan><tspan fill="#8b949e" dx="8">git commit -m</tspan><tspan fill="#e6edf3" dx="8">"leave it better than I found it"</tspan></text>
+  <path d="M212 66 H548" stroke="#e3b341" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
   <rect class="cur" x="566" y="42" width="10" height="18"/>
 
-  <text class="m line2" x="28" y="102" font-size="16"><tspan fill="#e3b341">✓</tspan><tspan fill="#8b949e"> a principle, not a slogan — it's in every codebase I touch</tspan></text>
+  <text class="m" x="28" y="102" font-size="16"><tspan fill="#e3b341">✓</tspan><tspan fill="#8b949e" dx="8">a principle, not a slogan — it is in every codebase I touch</tspan></text>
 </svg>
