@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg" />
-  <img src="assets/hero.svg" width="100%" alt="Terminal introduction for Brian Mbuya, a product-minded full-stack engineer in Nairobi who builds for weak networks, delayed payments, and failure paths." />
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg?v=3" />
+  <img src="assets/hero.svg?v=3" width="100%" alt="Terminal introduction for Brian Mbuya, a product-minded full-stack engineer in Nairobi who builds for weak networks, delayed payments, and failure paths." />
 </picture>
 
 ### Building dependable products for the real world.
@@ -15,36 +15,59 @@ Open to **full-stack**, **backend**, and **product engineering** roles &nbsp;·&
 
 ## `~/work` — live products
 
-### [Chuka Hostels ↗](https://chuka-hostels.vercel.app/) &nbsp; `live`
+### Chuka Hostels
 
-**A student-housing marketplace built for weak networks and entry-level Android phones.** Students can browse real listings, compare walking times, and unlock contact details through M-Pesa. Paid access is granted only after settlement confirmation, with a no-JavaScript operations path behind it.
+[**Open the marketplace ↗**](https://chuka-hostels.vercel.app/) &nbsp;·&nbsp; `live`
 
-`Next.js 16` · `React 19` · `TypeScript` · `Supabase` · `M-Pesa` · `Tailwind`
+`constraint` Entry-level Android phones, expensive data, weak networks, and payments that can time out after money moves.
 
-### [Inspection Tracker ↗](https://inspection-tracker-two.vercel.app/) &nbsp; `live`
+`decision` Keep paid fields out of public types, grant access only after settlement, and preserve a no-JavaScript operations path.
 
-**An offline-first hotel operations PWA for room inspections, IT assets, and stock.** Work queues survive unreliable corridor Wi-Fi and drain in order when connectivity returns. Role-based handovers, Opera PMS imports, and audit trails keep inspection work accountable.
+`proof` A deployed student-housing marketplace with real M-Pesa unlocks.
 
-`React 19` · `Vite` · `Supabase` · `PWA / Workbox` · `Recharts` · `Vitest`
+<sub>Next.js 16 · React 19 · TypeScript · Supabase · M-Pesa · Tailwind</sub>
 
-### [Best Western Plus Meridian ↗](https://best-western-plus-meridian-hotel.vercel.app/) &nbsp; `live`
+### Inspection Tracker
 
-**A responsive digital brochure and booking experience for a Nairobi hotel.** The magazine-style interface combines modular content, accessible navigation, booking flows, and a full-screen categorized gallery without a framework.
+[**Open the operations app ↗**](https://inspection-tracker-two.vercel.app/) &nbsp;·&nbsp; `live`
 
-`Semantic HTML` · `CSS` · `Vanilla JS`
+`constraint` Corridor Wi-Fi disappears mid-inspection while trainees, technicians, and admins hand work between roles.
+
+`decision` Queue checks locally, drain them in order, and enforce responsibility with role-based handovers and audit history.
+
+`proof` A deployed PWA covering rooms, IT assets, stock, Opera PMS imports, and 248 automated tests.
+
+<sub>React 19 · Vite · Supabase · Workbox · Recharts · Vitest</sub>
+
+### Best Western Plus Meridian
+
+[**Explore the hotel ↗**](https://best-western-plus-meridian-hotel.vercel.app/) &nbsp;·&nbsp; `live`
+
+`constraint` Deliver a polished hospitality experience without hiding the fundamentals behind a framework.
+
+`decision` Compose the site from semantic HTML modules, responsive CSS, accessible navigation, and a categorized full-screen gallery.
+
+`proof` A live, dependency-light booking and digital-brochure experience for a Nairobi hotel.
+
+<sub>Semantic HTML · CSS · Vanilla JavaScript</sub>
 
 ### `~/lab` — deeper systems work
 
-[**UniSubmit ↗**](https://github.com/Brian-Mbuya/unisubmit) — an academic submission platform with explainable six-signal collaborator matching, hybrid search, duplicate detection, and measured recommender quality.
+[**Inspect UniSubmit ↗**](https://github.com/Brian-Mbuya/unisubmit)
 
-`Spring Boot` · `Java` · `PostgreSQL / pgvector` · `SPECTER2` · `Python`
+`question` Can academic recommendations stay explainable, measurable, and useful when external AI services are unavailable?
+
+`built` Six-signal collaborator matching with per-signal reasons, precision@5 / MRR evaluation, hybrid search, duplicate detection, and an honest deterministic fallback.
+
+<sub>Spring Boot · Java · PostgreSQL / pgvector · SPECTER2 · Python</sub>
 
 <br>
 
 <div align="center">
 
-<img src="assets/philosophy.svg" width="100%" alt="git commit -m 'leave it better than I found it' — a principle, not a slogan, it's in every codebase I touch." />
+<img src="assets/philosophy.svg?v=3" width="100%" alt="git commit -m 'leave it better than I found it' — a principle, not a slogan, it's in every codebase I touch." />
 
 <sub>More work is pinned below.</sub>
 
 </div>
+
