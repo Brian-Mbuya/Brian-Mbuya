@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 372" role="img" aria-label="Terminal. Brian Mbuya, product-minded full-stack engineer in Nairobi. Builds for weak networks, delayed payments, and failure paths. Shipping Chuka Hostels with live M-Pesa payments. Available for full-stack, backend, and product roles.">
+  <defs>
+    <clipPath id="win"><rect x="8" y="8" width="904" height="356" rx="10"/></clipPath>
+    <style>
+      .m{font-family:ui-monospace,SFMono-Regular,"Cascadia Code",Menlo,Consolas,monospace;font-size:16px}
+      .prompt{fill:#e3b341}.host{fill:#8b949e}.cmd{fill:#e6edf3}.out{fill:#adbac7}
+      .cmt{fill:#d2a84b}.arrow{fill:#e3b341}.name{fill:#f0f6fc;font-weight:700}.key{fill:#8b949e}
+      .ln{animation:appear .4s ease both;transform-box:fill-box}
+      @keyframes appear{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+      .cur{fill:#e3b341;animation:blink 1.06s step-end infinite}
+      @keyframes blink{50%{opacity:0}}
+      @media (prefers-reduced-motion:reduce){.ln{animation:none}.cur{animation:none}}
+    </style>
+  </defs>
+
+  <rect x="8.5" y="8.5" width="903" height="355" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <g clip-path="url(#win)">
+    <rect x="8" y="8" width="904" height="40" fill="#161b22"/>
+    <line x1="8" y1="48" x2="912" y2="48" stroke="#30363d"/>
+    <circle cx="34" cy="28" r="6" fill="#f85149"/><circle cx="55" cy="28" r="6" fill="#d29922"/><circle cx="76" cy="28" r="6" fill="#3fb950"/>
+    <text x="460" y="33" text-anchor="middle" class="m" fill="#6e7681" font-size="13">brian@nairobi: ~/work — zsh</text>
+
+    <text class="m ln" x="32" y="90"><tspan class="prompt">brian@nairobi</tspan><tspan class="host" dx="8">~ %</tspan><tspan class="cmd" dx="8">whoami</tspan></text>
+    <text class="m ln" x="32" y="116" style="animation-delay:.25s"><tspan class="name">Brian Mbuya</tspan><tspan class="out"> — product-minded full-stack engineer · Nairobi · UTC+3</tspan></text>
+
+    <text class="m ln" x="32" y="160" style="animation-delay:.6s"><tspan class="prompt">brian@nairobi</tspan><tspan class="host" dx="8">~ %</tspan><tspan class="cmd" dx="8">cat approach.md</tspan></text>
+    <text class="m ln cmt" x="32" y="186" style="animation-delay:.85s">// weak networks · delayed payments · failure paths</text>
+    <text class="m ln" x="32" y="208" style="animation-delay:1.05s"><tspan class="key">principle:</tspan><tspan class="out" dx="10">production starts where the happy path ends.</tspan></text>
+
+    <text class="m ln" x="32" y="252" style="animation-delay:1.4s"><tspan class="prompt">brian@nairobi</tspan><tspan class="host" dx="8">~ %</tspan><tspan class="cmd" dx="8">./status --now</tspan></text>
+    <text class="m ln" x="32" y="278" style="animation-delay:1.65s"><tspan class="key">shipping:</tspan><tspan class="name" dx="10">Chuka Hostels</tspan><tspan class="out" dx="10">· live M-Pesa payments</tspan></text>
+    <text class="m ln" x="32" y="304" style="animation-delay:1.9s"><tspan class="key">available:</tspan><tspan class="out" dx="10">full-stack · backend · product engineering</tspan></text>
+    <rect class="cur" x="574" y="292" width="9" height="16"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 132" role="img" aria-label="git commit -m 'leave it better than I found it' — a principle, not a slogan.">
+  <defs>
+    <style>
+      .m{font-family:ui-monospace,SFMono-Regular,"Cascadia Code",Menlo,Consolas,monospace}
+      .cur{fill:#e3b341;animation:blink 1.06s step-end infinite}
+      @keyframes blink{50%{opacity:0}}
+      @media (prefers-reduced-motion:reduce){.cur{animation:none}}
+    </style>
+  </defs>
+
+  <rect x="0.75" y="0.75" width="918.5" height="130.5" rx="12" fill="#0d1117" stroke="#30363d"/>
+
+  <text class="m" x="28" y="56" font-size="18"><tspan fill="#e3b341">$</tspan><tspan fill="#8b949e" dx="8">git commit -m</tspan><tspan fill="#e6edf3" dx="8">"leave it better than I found it"</tspan></text>
+  <path d="M212 66 H548" stroke="#e3b341" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+  <rect class="cur" x="566" y="42" width="10" height="18"/>
+
+  <text class="m" x="28" y="102" font-size="16"><tspan fill="#e3b341">✓</tspan><tspan fill="#8b949e" dx="8">a principle, not a slogan — it is in every codebase I touch</tspan></text>
+</svg>
