@@ -15,24 +15,24 @@ const PALETTE = {
 const projects = [
   {
     name: 'Chuka Hostels / live',
-    description: 'Housing access designed for weak networks, affordable phones, and verified M-Pesa settlement.',
+    description: 'Student housing discovery built for unreliable networks, affordable phones, and verified M-Pesa access.',
     stack: 'NEXT.JS · REACT · TYPESCRIPT · SUPABASE · M-PESA',
   },
   {
     name: 'Inspection Tracker / live',
-    description: 'Offline-first workflows with ordered synchronization, clear handovers, audit history, and 248 automated tests.',
+    description: 'Offline-first inspections with ordered sync, clear handovers, full audit history, and 248 automated tests.',
     stack: 'REACT · VITE · SUPABASE · WORKBOX · VITEST',
   },
   {
     name: 'Best Western Plus Meridian / live',
-    description: 'A responsive, accessible hotel experience built on semantic foundations without a framework dependency.',
+    description: 'A responsive, accessible hotel experience built with semantic HTML and plain JavaScript.',
     stack: 'SEMANTIC HTML · CSS · VANILLA JAVASCRIPT',
   },
 ];
 
 const lab = {
   name: 'UniSubmit / lab',
-  description: 'Explainable collaborator matching with hybrid search, duplicate detection, and measured recommendation quality.',
+  description: 'Explainable collaborator matching that combines hybrid search, duplicate detection, and measurable recommendation quality.',
   stack: 'SPRING BOOT · JAVA · POSTGRESQL · PGVECTOR · SPECTER2 · PYTHON',
 };
 
@@ -95,7 +95,8 @@ function renderPixels(config) {
         const y = pixelY + row * (pixelCell + pixelGap);
         const assembleDelay = 80 + ((pixelIndex * 37 + row * 53 + column * 29) % 920);
         const scanDelay = -Math.round((x / config.width) * 7600);
-        pixels.push(`<rect class="pixel" x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${pixelCell}" height="${pixelCell}" rx="${config.mobile ? 0.8 : 1.2}" style="animation-delay:${assembleDelay}ms,${scanDelay}ms"/>`);
+        const glitchBand = ['glitch-a', 'glitch-b', 'glitch-c'][row % 3];
+        pixels.push(`<rect class="pixel ${glitchBand}" x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${pixelCell}" height="${pixelCell}" rx="${config.mobile ? 0.8 : 1.2}" style="animation-delay:${assembleDelay}ms,${scanDelay}ms,${config.glitchDelay}ms"/>`);
         pixelIndex += 1;
       }
     }
@@ -150,7 +151,7 @@ function renderArtboard(config) {
   }
 
   wrappedLines(
-    'I build useful products and improve the systems around them.',
+    'I build useful products and make the systems behind them stronger.',
     'manifesto',
     config.manifestoMax,
     config.manifestoLine,
@@ -167,19 +168,23 @@ function renderArtboard(config) {
   section('03 / OPERATING PRINCIPLE');
   wrappedLines('Always leave a place way better than you found it.', 'principle', config.principleMax, config.principleLine);
   y += config.principleAfter;
-  wrappedLines('EVERY GLYPH IS GENERATED. LINKS REMAIN LIVE BELOW.', 'metadata', config.metaMax, config.metaLine);
+  wrappedLines('EVERY GLYPH IS GENERATED. EVERY LINK STAYS LIVE.', 'metadata', config.metaMax, config.metaLine);
 
   const height = Math.ceil(y + config.bottomPadding);
   const pixelMarkup = renderPixels({ ...config, height });
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${config.width} ${height}" role="img" aria-labelledby="title description">
   <title id="title">Brian Mbuya kinetic profile</title>
-  <desc id="description">An animated source document where Brian Mbuya's name assembles from pixels, every character decodes into place, and an amber read-head scans the principle always leave a place way better than you found it.</desc>
+  <desc id="description">An animated source document where Brian Mbuya's name assembles from pixels, briefly glitches into place, and an amber read-head scans the principle always leave a place way better than you found it.</desc>
   <style>
     svg{background:${PALETTE.canvas};text-rendering:geometricPrecision;shape-rendering:geometricPrecision}
-    .pixel{fill:${PALETTE.strong};opacity:1;animation:assemble 520ms cubic-bezier(.22,1,.36,1) both,pixel-scan 7.6s linear infinite}
+    .pixel{fill:${PALETTE.strong};opacity:1;transform-box:fill-box;transform-origin:center;animation:assemble 520ms cubic-bezier(.22,1,.36,1) both,pixel-scan 7.6s linear infinite,name-glitch ${config.glitchCycle}s steps(1,end) infinite}
     @keyframes assemble{0%{opacity:0}45%{opacity:.18}100%{opacity:1}}
     @keyframes pixel-scan{0%,82%,100%{fill:${PALETTE.strong}}88%,92%{fill:${PALETTE.accent}}}
+    .glitch-a{--glitch-out:${config.glitchShift}px;--glitch-back:-${(config.glitchShift * 0.4).toFixed(1)}px}
+    .glitch-b{--glitch-out:-${config.glitchShift}px;--glitch-back:${(config.glitchShift * 0.6).toFixed(1)}px}
+    .glitch-c{--glitch-out:${(config.glitchShift * 0.45).toFixed(1)}px;--glitch-back:-${(config.glitchShift * 0.75).toFixed(1)}px}
+    @keyframes name-glitch{0%,3.2%,100%{transform:translateX(0)}.7%{transform:translateX(var(--glitch-out))}1.3%{transform:translateX(var(--glitch-back))}1.8%{transform:translateX(0)}2.2%{transform:translateX(var(--glitch-back))}2.7%{transform:translateX(0)}}
     .line{font-family:ui-monospace,SFMono-Regular,"Cascadia Code",Menlo,Consolas,monospace}
     .glyph{opacity:1;animation:decode 640ms cubic-bezier(.22,1,.36,1) both}
     @keyframes decode{0%,28%{opacity:.04}48%{opacity:.82}62%{opacity:.2}100%{opacity:1}}
@@ -203,7 +208,7 @@ function renderArtboard(config) {
   </style>
   <rect width="${config.width}" height="${height}" rx="${config.mobile ? 10 : 14}" fill="${PALETTE.canvas}"/>
   <g>${pixelMarkup}</g>
-  <text class="line metadata" x="${config.pixelX}" y="${config.identityY}">GENERATIVE PROFILE / BRIAN-MBUYA / REV 02</text>
+  <text class="line metadata" x="${config.pixelX}" y="${config.identityY}">GENERATIVE PROFILE / BRIAN-MBUYA / REV 03</text>
   <line class="spine" x1="${config.spineX}" y1="${config.contentTop - 42}" x2="${config.spineX}" y2="${height - config.bottomPadding + 18}"/>
   <line class="spine-signal" x1="${config.spineX}" y1="${config.contentTop - 42}" x2="${config.spineX}" y2="${height - config.bottomPadding + 18}"/>
   <g>${rails.join('')}</g>
@@ -231,6 +236,9 @@ const desktop = renderArtboard({
   signalWidth: 138,
   scanStart: 178,
   scanSeconds: 11.5,
+  glitchDelay: 1800,
+  glitchCycle: 9.6,
+  glitchShift: 5,
   bodyMax: 88,
   stackMax: 96,
   metaMax: 82,
@@ -273,6 +281,9 @@ const mobile = renderArtboard({
   signalWidth: 82,
   scanStart: 128,
   scanSeconds: 13,
+  glitchDelay: 1800,
+  glitchCycle: 9.6,
+  glitchShift: 3,
   bodyMax: 42,
   stackMax: 44,
   metaMax: 41,
