@@ -14,25 +14,25 @@ const PALETTE = {
 
 const projects = [
   {
-    name: 'CHUKA HOSTELS / LIVE',
-    description: 'Housing access built around weak networks, low-cost phones, and real M-Pesa settlement.',
+    name: 'Chuka Hostels / live',
+    description: 'Housing access designed for weak networks, affordable phones, and verified M-Pesa settlement.',
     stack: 'NEXT.JS · REACT · TYPESCRIPT · SUPABASE · M-PESA',
   },
   {
-    name: 'INSPECTION TRACKER / LIVE',
-    description: 'Offline-first operations with ordered sync, role handovers, audit history, and 248 tests.',
+    name: 'Inspection Tracker / live',
+    description: 'Offline-first workflows with ordered synchronization, clear handovers, audit history, and 248 automated tests.',
     stack: 'REACT · VITE · SUPABASE · WORKBOX · VITEST',
   },
   {
-    name: 'BEST WESTERN PLUS MERIDIAN / LIVE',
-    description: 'A responsive, accessible hotel experience built without hiding behind a framework.',
+    name: 'Best Western Plus Meridian / live',
+    description: 'A responsive, accessible hotel experience built on semantic foundations without a framework dependency.',
     stack: 'SEMANTIC HTML · CSS · VANILLA JAVASCRIPT',
   },
 ];
 
 const lab = {
-  name: 'UNISUBMIT / LAB',
-  description: 'Explainable collaborator matching, hybrid search, duplicate detection, and measured recommender quality.',
+  name: 'UniSubmit / lab',
+  description: 'Explainable collaborator matching with hybrid search, duplicate detection, and measured recommendation quality.',
   stack: 'SPRING BOOT · JAVA · POSTGRESQL · PGVECTOR · SPECTER2 · PYTHON',
 };
 
@@ -149,28 +149,32 @@ function renderArtboard(config) {
     y += config.entryAfter;
   }
 
-  glyphLine('I BUILD USEFUL THINGS AND MAKE SYSTEMS BETTER.', 'manifesto');
-  y += config.manifestoLine;
-  wrappedLines('SERIOUS PROBLEMS · GOOD TEAMS · WORK THAT MATTERS', 'metadata', config.metaMax, config.metaLine);
+  wrappedLines(
+    'I build useful products and improve the systems around them.',
+    'manifesto',
+    config.manifestoMax,
+    config.manifestoLine,
+  );
+  wrappedLines('SERIOUS PROBLEMS · THOUGHTFUL TEAMS · WORK THAT MATTERS', 'metadata', config.metaMax, config.metaLine);
   y += config.introAfter;
 
-  section('01 / LIVE SYSTEMS');
+  section('01 / SHIPPED WORK');
   for (const project of projects) entry(project);
 
-  section('02 / DEEPER WORK');
+  section('02 / SYSTEMS LAB');
   entry(lab);
 
-  section('03 / PRINCIPLE');
-  glyphLine('LEAVE IT BETTER THAN I FOUND IT.', 'principle');
+  section('03 / OPERATING PRINCIPLE');
+  wrappedLines('Always leave a place way better than you found it.', 'principle', config.principleMax, config.principleLine);
   y += config.principleAfter;
-  wrappedLines('EVERY GLYPH IN THIS FRAME IS GENERATED. THE LINKS BELOW REMAIN LIVE.', 'metadata', config.metaMax, config.metaLine);
+  wrappedLines('EVERY GLYPH IS GENERATED. LINKS REMAIN LIVE BELOW.', 'metadata', config.metaMax, config.metaLine);
 
   const height = Math.ceil(y + config.bottomPadding);
   const pixelMarkup = renderPixels({ ...config, height });
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${config.width} ${height}" role="img" aria-labelledby="title description">
   <title id="title">Brian Mbuya kinetic profile</title>
-  <desc id="description">An animated source document where Brian Mbuya's name assembles from pixels, every character decodes into place, and an amber read-head continuously scans the completed profile.</desc>
+  <desc id="description">An animated source document where Brian Mbuya's name assembles from pixels, every character decodes into place, and an amber read-head scans the principle always leave a place way better than you found it.</desc>
   <style>
     svg{background:${PALETTE.canvas};text-rendering:geometricPrecision;shape-rendering:geometricPrecision}
     .pixel{fill:${PALETTE.strong};opacity:1;animation:assemble 520ms cubic-bezier(.22,1,.36,1) both,pixel-scan 7.6s linear infinite}
@@ -179,13 +183,13 @@ function renderArtboard(config) {
     .line{font-family:ui-monospace,SFMono-Regular,"Cascadia Code",Menlo,Consolas,monospace}
     .glyph{opacity:1;animation:decode 640ms cubic-bezier(.22,1,.36,1) both}
     @keyframes decode{0%,28%{opacity:.04}48%{opacity:.82}62%{opacity:.2}100%{opacity:1}}
-    .manifesto{fill:${PALETTE.strong};font-size:${config.manifestoSize}px;font-weight:700;letter-spacing:${config.mobile ? 0.1 : 0.35}px}
+    .manifesto{fill:${PALETTE.strong};font-size:${config.manifestoSize}px;font-weight:700}
     .metadata{fill:${PALETTE.muted};font-size:${config.metaSize}px;letter-spacing:${config.mobile ? 0.45 : 0.75}px}
     .section{fill:${PALETTE.accent};font-size:${config.sectionSize}px;font-weight:700;letter-spacing:${config.mobile ? 0.55 : 0.9}px}
-    .project{fill:${PALETTE.strong};font-size:${config.projectSize}px;font-weight:700;letter-spacing:.15px}
+    .project{fill:${PALETTE.strong};font-size:${config.projectSize}px;font-weight:700}
     .body{fill:${PALETTE.text};font-size:${config.bodySize}px}
     .stack{fill:${PALETTE.muted};font-size:${config.stackSize}px;letter-spacing:.2px}
-    .principle{fill:${PALETTE.accent};font-size:${config.principleSize}px;font-weight:750;letter-spacing:${config.mobile ? 0.15 : 0.4}px}
+    .principle{fill:${PALETTE.accent};font-size:${config.principleSize}px;font-weight:700}
     .rail{fill:none;stroke:${PALETTE.line};stroke-width:1;stroke-dasharray:1;stroke-dashoffset:1;animation:draw-rail 760ms cubic-bezier(.22,1,.36,1) both}
     @keyframes draw-rail{to{stroke-dashoffset:0}}
     .read-head{animation:read ${config.scanSeconds}s linear infinite}
@@ -199,7 +203,7 @@ function renderArtboard(config) {
   </style>
   <rect width="${config.width}" height="${height}" rx="${config.mobile ? 10 : 14}" fill="${PALETTE.canvas}"/>
   <g>${pixelMarkup}</g>
-  <text class="line metadata" x="${config.pixelX}" y="${config.identityY}">GENERATED IDENTITY / BRIAN-MBUYA / REV 01</text>
+  <text class="line metadata" x="${config.pixelX}" y="${config.identityY}">GENERATIVE PROFILE / BRIAN-MBUYA / REV 02</text>
   <line class="spine" x1="${config.spineX}" y1="${config.contentTop - 42}" x2="${config.spineX}" y2="${height - config.bottomPadding + 18}"/>
   <line class="spine-signal" x1="${config.spineX}" y1="${config.contentTop - 42}" x2="${config.spineX}" y2="${height - config.bottomPadding + 18}"/>
   <g>${rails.join('')}</g>
@@ -230,23 +234,26 @@ const desktop = renderArtboard({
   bodyMax: 88,
   stackMax: 96,
   metaMax: 82,
-  manifestoSize: 19,
+  manifestoMax: 70,
+  principleMax: 62,
+  manifestoSize: 20,
   metaSize: 12,
   sectionSize: 14,
-  projectSize: 17,
-  bodySize: 15,
+  projectSize: 18,
+  bodySize: 16,
   stackSize: 12,
-  principleSize: 21,
-  manifestoLine: 31,
+  principleSize: 20,
+  manifestoLine: 32,
   metaLine: 19,
-  introAfter: 48,
+  introAfter: 42,
   sectionAfter: 35,
   projectAfter: 28,
   bodyLine: 23,
   stackBefore: 3,
   stackLine: 18,
-  entryAfter: 34,
+  entryAfter: 30,
   principleAfter: 35,
+  principleLine: 28,
   bottomPadding: 52,
 });
 
@@ -269,13 +276,15 @@ const mobile = renderArtboard({
   bodyMax: 42,
   stackMax: 44,
   metaMax: 41,
-  manifestoSize: 15,
-  metaSize: 10.5,
-  sectionSize: 12.5,
-  projectSize: 15,
+  manifestoMax: 40,
+  principleMax: 34,
+  manifestoSize: 16,
+  metaSize: 12,
+  sectionSize: 12,
+  projectSize: 16,
   bodySize: 14,
-  stackSize: 10.5,
-  principleSize: 16.5,
+  stackSize: 12,
+  principleSize: 18,
   manifestoLine: 28,
   metaLine: 18,
   introAfter: 45,
@@ -286,6 +295,7 @@ const mobile = renderArtboard({
   stackLine: 18,
   entryAfter: 35,
   principleAfter: 34,
+  principleLine: 27,
   bottomPadding: 48,
 });
 

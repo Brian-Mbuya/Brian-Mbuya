@@ -1,13 +1,11 @@
-<table width="100%">
-<tr>
-<td>
+<div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/profile-mobile.svg?v=5" />
-  <img src="assets/profile.svg?v=5" width="100%" alt="Brian Mbuya's kinetic profile. His name assembles from pixels, every character decodes into place, and an amber read-head scans live products, deeper work, and the principle leave it better than I found it." />
+  <source media="(max-width: 600px)" srcset="assets/profile-mobile.svg?v=6" />
+  <img src="assets/profile.svg?v=6" width="100%" alt="Brian Mbuya's kinetic profile. His name assembles from pixels, every character decodes into place, and an amber read-head scans shipped work, systems research, and the principle: always leave a place way better than you found it." />
 </picture>
 
-<p align="center">
+<p>
   <strong>Open:</strong>
   <a href="https://chuka-hostels.vercel.app/">Chuka Hostels ↗</a>
   &nbsp;·&nbsp;
@@ -18,7 +16,7 @@
   <a href="https://github.com/Brian-Mbuya/unisubmit">UniSubmit ↗</a>
 </p>
 
-<p align="center">
+<p>
   <a href="https://www.linkedin.com/in/brian-mbuya-23225541b">LinkedIn</a>
   &nbsp;·&nbsp;
   <a href="mailto:mbuyabrian290@gmail.com">Email</a>
@@ -26,6 +24,4 @@
   <a href="https://github.com/Brian-Mbuya">GitHub</a>
 </p>
 
-</td>
-</tr>
-</table>
+</div>
