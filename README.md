@@ -1,9 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/profile-mobile.svg?v=7" />
-  <img src="assets/profile.svg?v=7" width="100%" alt="Brian Mbuya's kinetic profile. His name assembles from pixels, briefly glitches into place, and an amber read-head scans shipped work, systems research, and the principle: always leave a place way better than you found it." />
-</picture>
+<img src="assets/profile.svg?v=8" width="100%" alt="Brian Mbuya's kinetic profile. His name assembles from pixels, briefly glitches into place, and an amber read-head scans shipped work, systems research, and the principle: always leave a place way better than you found it." />
 
 <p>
   <strong>Open:</strong>
