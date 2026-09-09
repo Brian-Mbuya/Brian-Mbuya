@@ -5,9 +5,15 @@
       .m{font-family:ui-monospace,SFMono-Regular,"Cascadia Code",Menlo,Consolas,monospace;font-size:16px}
       .prompt{fill:#e3b341}.host{fill:#8b949e}.cmd{fill:#e6edf3}.out{fill:#adbac7}
       .cmt{fill:#d2a84b}.arrow{fill:#e3b341}.name{fill:#f0f6fc;font-weight:700}.key{fill:#8b949e}
-      .cur{fill:#e3b341;animation:blink 1.06s step-end infinite}
+      .ln{transform-box:fill-box}
+      @keyframes appear{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+      .cur{fill:#e3b341}
       @keyframes blink{50%{opacity:0}}
-      @media (prefers-reduced-motion:reduce){.cur{animation:none}}
+      /* Motion is enhancement only: the text above is visible without it. */
+      @media (prefers-reduced-motion:no-preference){
+        .ln{animation:appear .4s ease both}
+        .cur{animation:blink 1.06s step-end infinite}
+      }
     </style>
   </defs>
 
@@ -18,16 +24,16 @@
     <circle cx="34" cy="28" r="6" fill="#f85149"/><circle cx="55" cy="28" r="6" fill="#d29922"/><circle cx="76" cy="28" r="6" fill="#3fb950"/>
     <text x="460" y="33" text-anchor="middle" class="m" fill="#6e7681" font-size="13">brian@nairobi: ~/work — zsh</text>
 
-    <text class="m" x="32" y="90"><tspan class="prompt">brian@nairobi</tspan><tspan class="host" dx="8">~ %</tspan><tspan class="cmd" dx="8">whoami</tspan></text>
-    <text class="m" x="32" y="116"><tspan class="name">Brian Mbuya</tspan><tspan class="out"> — product-minded full-stack engineer · Nairobi · UTC+3</tspan></text>
+    <text class="m ln" x="32" y="90"><tspan class="prompt">brian@nairobi</tspan><tspan class="host" dx="8">~ %</tspan><tspan class="cmd" dx="8">whoami</tspan></text>
+    <text class="m ln" x="32" y="116" style="animation-delay:.25s"><tspan class="name">Brian Mbuya</tspan><tspan class="out"> — product-minded full-stack engineer · Nairobi · UTC+3</tspan></text>
 
-    <text class="m" x="32" y="160"><tspan class="prompt">brian@nairobi</tspan><tspan class="host" dx="8">~ %</tspan><tspan class="cmd" dx="8">cat approach.md</tspan></text>
-    <text class="m cmt" x="32" y="186">// weak networks · delayed payments · failure paths</text>
-    <text class="m" x="32" y="208"><tspan class="key">principle:</tspan><tspan class="out" dx="10">production starts where the happy path ends.</tspan></text>
+    <text class="m ln" x="32" y="160" style="animation-delay:.6s"><tspan class="prompt">brian@nairobi</tspan><tspan class="host" dx="8">~ %</tspan><tspan class="cmd" dx="8">cat approach.md</tspan></text>
+    <text class="m ln cmt" x="32" y="186" style="animation-delay:.85s">// weak networks · delayed payments · failure paths</text>
+    <text class="m ln" x="32" y="208" style="animation-delay:1.05s"><tspan class="key">principle:</tspan><tspan class="out" dx="10">production starts where the happy path ends.</tspan></text>
 
-    <text class="m" x="32" y="252"><tspan class="prompt">brian@nairobi</tspan><tspan class="host" dx="8">~ %</tspan><tspan class="cmd" dx="8">./status --now</tspan></text>
-    <text class="m" x="32" y="278"><tspan class="key">live:</tspan><tspan class="name" dx="10">3 products</tspan><tspan class="out" dx="10">· housing · hotel operations · hospitality</tspan></text>
-    <text class="m" x="32" y="304"><tspan class="key">available:</tspan><tspan class="out" dx="10">full-stack · backend · product engineering</tspan></text>
+    <text class="m ln" x="32" y="252" style="animation-delay:1.4s"><tspan class="prompt">brian@nairobi</tspan><tspan class="host" dx="8">~ %</tspan><tspan class="cmd" dx="8">./status --now</tspan></text>
+    <text class="m ln" x="32" y="278" style="animation-delay:1.65s"><tspan class="key">live:</tspan><tspan class="name" dx="10">3 products</tspan><tspan class="out" dx="10">· housing · hotel operations · hospitality</tspan></text>
+    <text class="m ln" x="32" y="304" style="animation-delay:1.9s"><tspan class="key">available:</tspan><tspan class="out" dx="10">full-stack · backend · product engineering</tspan></text>
     <rect class="cur" x="574" y="292" width="9" height="16"/>
   </g>
 </svg>
