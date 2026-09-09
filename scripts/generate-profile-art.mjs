@@ -178,7 +178,7 @@ function renderArtboard(config) {
   <desc id="description">An animated source document where Brian Mbuya's name assembles from pixels, briefly glitches into place, and an amber read-head scans the principle always leave a place way better than you found it.</desc>
   <style>
     svg{background:${PALETTE.canvas};text-rendering:geometricPrecision;shape-rendering:geometricPrecision}
-    .pixel{fill:${PALETTE.strong};opacity:1;transform-box:fill-box;transform-origin:center;animation:assemble 520ms cubic-bezier(.22,1,.36,1) both,pixel-scan 7.6s linear infinite,name-glitch ${config.glitchCycle}s steps(1,end) infinite}
+    .pixel{fill:${PALETTE.strong};opacity:1;transform-box:fill-box;transform-origin:center}
     @keyframes assemble{0%{opacity:0}45%{opacity:.18}100%{opacity:1}}
     @keyframes pixel-scan{0%,82%,100%{fill:${PALETTE.strong}}88%,92%{fill:${PALETTE.accent}}}
     .glitch-a{--glitch-out:${config.glitchShift}px;--glitch-back:-${(config.glitchShift * 0.4).toFixed(1)}px}
@@ -186,7 +186,7 @@ function renderArtboard(config) {
     .glitch-c{--glitch-out:${(config.glitchShift * 0.45).toFixed(1)}px;--glitch-back:-${(config.glitchShift * 0.75).toFixed(1)}px}
     @keyframes name-glitch{0%,3.2%,100%{transform:translateX(0)}.7%{transform:translateX(var(--glitch-out))}1.3%{transform:translateX(var(--glitch-back))}1.8%{transform:translateX(0)}2.2%{transform:translateX(var(--glitch-back))}2.7%{transform:translateX(0)}}
     .line{font-family:ui-monospace,SFMono-Regular,"Cascadia Code",Menlo,Consolas,monospace}
-    .glyph{opacity:1;animation:decode 640ms cubic-bezier(.22,1,.36,1) both}
+    .glyph{opacity:1}
     @keyframes decode{0%,28%{opacity:.04}48%{opacity:.82}62%{opacity:.2}100%{opacity:1}}
     .manifesto{fill:${PALETTE.strong};font-size:${config.manifestoSize}px;font-weight:700}
     .metadata{fill:${PALETTE.muted};font-size:${config.metaSize}px;letter-spacing:${config.mobile ? 0.45 : 0.75}px}
@@ -195,16 +195,25 @@ function renderArtboard(config) {
     .body{fill:${PALETTE.text};font-size:${config.bodySize}px}
     .stack{fill:${PALETTE.muted};font-size:${config.stackSize}px;letter-spacing:.2px}
     .principle{fill:${PALETTE.accent};font-size:${config.principleSize}px;font-weight:700}
-    .rail{fill:none;stroke:${PALETTE.line};stroke-width:1;stroke-dasharray:1;stroke-dashoffset:1;animation:draw-rail 760ms cubic-bezier(.22,1,.36,1) both}
+    .rail{fill:none;stroke:${PALETTE.line};stroke-width:1}
     @keyframes draw-rail{to{stroke-dashoffset:0}}
-    .read-head{animation:read ${config.scanSeconds}s linear infinite}
+    .read-head{display:none}
     @keyframes read{from{transform:translateY(${config.scanStart}px)}to{transform:translateY(${height + 40}px)}}
     .head-line{stroke:${PALETTE.line};stroke-width:.7;opacity:.58}
     .head-signal{stroke:${PALETTE.accent};stroke-width:1.25;stroke-linecap:round}
     .spine{stroke:${PALETTE.line};stroke-width:1;stroke-dasharray:2 7}
-    .spine-signal{stroke:${PALETTE.accent};stroke-width:2;stroke-linecap:round;stroke-dasharray:18 ${height};animation:spine-run ${config.scanSeconds}s linear infinite}
+    .spine-signal{stroke:${PALETTE.accent};stroke-width:2;stroke-linecap:round;stroke-dasharray:18 ${height}}
     @keyframes spine-run{from{stroke-dashoffset:0}to{stroke-dashoffset:-${height}}}
-    @media (prefers-reduced-motion:reduce){.pixel,.glyph,.rail,.read-head,.spine-signal{animation:none}.rail{stroke-dashoffset:0}.read-head{display:none}}
+    /* Motion is enhancement only. Every rule above is the finished, fully visible
+       state, so a renderer that does not run CSS animations still draws the whole
+       artboard instead of an empty panel. */
+    @media (prefers-reduced-motion:no-preference){
+      .pixel{animation:assemble 520ms cubic-bezier(.22,1,.36,1) both,pixel-scan 7.6s linear infinite,name-glitch ${config.glitchCycle}s steps(1,end) infinite}
+      .glyph{animation:decode 640ms cubic-bezier(.22,1,.36,1) both}
+      .rail{stroke-dasharray:1;stroke-dashoffset:1;animation:draw-rail 760ms cubic-bezier(.22,1,.36,1) both}
+      .read-head{display:inline;animation:read ${config.scanSeconds}s linear infinite}
+      .spine-signal{animation:spine-run ${config.scanSeconds}s linear infinite}
+    }
   </style>
   <rect width="${config.width}" height="${height}" rx="${config.mobile ? 10 : 14}" fill="${PALETTE.canvas}"/>
   <g>${pixelMarkup}</g>
@@ -222,7 +231,7 @@ function renderArtboard(config) {
 
 const desktop = renderArtboard({
   mobile: false,
-  width: 920,
+  width: 960,
   pixelCell: 10,
   pixelGap: 2,
   letterGap: 7,

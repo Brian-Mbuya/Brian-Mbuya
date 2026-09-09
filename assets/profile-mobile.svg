@@ -29,15 +29,15 @@
     .spine{stroke:#30363d;stroke-width:1;stroke-dasharray:2 7}
     .spine-signal{stroke:#e3b341;stroke-width:2;stroke-linecap:round;stroke-dasharray:18 1224}
     @keyframes spine-run{from{stroke-dashoffset:0}to{stroke-dashoffset:-1224}}
-    /* Motion is enhancement only: every element above is fully visible without it,
-       so renderers that do not run CSS animations still draw the whole profile. */
+    /* Motion is enhancement only. Every rule above is the finished, fully visible
+       state, so a renderer that does not run CSS animations still draws the whole
+       artboard instead of an empty panel. */
     @media (prefers-reduced-motion:no-preference){
       .pixel{animation:assemble 520ms cubic-bezier(.22,1,.36,1) both,pixel-scan 7.6s linear infinite,name-glitch 9.6s steps(1,end) infinite}
       .glyph{animation:decode 640ms cubic-bezier(.22,1,.36,1) both}
       .rail{stroke-dasharray:1;stroke-dashoffset:1;animation:draw-rail 760ms cubic-bezier(.22,1,.36,1) both}
-      .read-head{animation:read 13s linear infinite}
+      .read-head{display:inline;animation:read 13s linear infinite}
       .spine-signal{animation:spine-run 13s linear infinite}
-      .read-head{display:inline}
     }
   </style>
   <rect width="480" height="1224" rx="10" fill="#0d1117"/>
