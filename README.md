@@ -1,30 +1,37 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Terminal introduction. Brian Mbuya — product-minded full-stack engineer, Nairobi (UTC+3). Builds for weak networks, delayed payments, and failure paths. Three live products across housing and hotel operations. Available for full-stack, backend, and product roles." />
+<img src="assets/profile.svg?v=8" width="100%" alt="Brian Mbuya's kinetic profile. His name assembles from pixels, briefly glitches into place, and an amber read-head scans shipped work, systems research, and the principle: always leave a place way better than you found it." />
+
+<p>
+  <strong>Open:</strong>
+  <a href="https://chuka-hostels.vercel.app/">Chuka Hostels ↗</a>
+  &nbsp;·&nbsp;
+  <a href="https://inspection-tracker-two.vercel.app/">Inspection Tracker ↗</a>
+  &nbsp;·&nbsp;
+  <a href="https://best-western-plus-meridian-hotel.vercel.app/">Best Western ↗</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Brian-Mbuya/unisubmit">UniSubmit ↗</a>
+</p>
+
+<p>
+  <a href="https://www.linkedin.com/in/brian-mbuya-23225541b">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:mbuyabrian290@gmail.com">Email</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Brian-Mbuya">GitHub</a>
+</p>
 
 </div>
 
-## Brian Mbuya
+---
 
-**Product-minded full-stack engineer · Nairobi (UTC+3)**
+**I build useful products and make the systems behind them stronger.**
 
-I build software for the conditions it actually runs in: weak networks, entry-level Android phones, delayed payments, and users who have been burned before. Production starts where the happy path ends.
+- **[Chuka Hostels](https://chuka-hostels.vercel.app/)** — student housing discovery built for unreliable networks, affordable phones, and verified M-Pesa access.
+- **[Inspection Tracker](https://inspection-tracker-two.vercel.app/)** — offline-first inspections with ordered sync, clear handovers, full audit history, and 248 automated tests.
+- **[Best Western Plus Meridian](https://best-western-plus-meridian-hotel.vercel.app/)** — a responsive, accessible hotel experience built with semantic HTML and plain JavaScript.
+- **[UniSubmit](https://github.com/Brian-Mbuya/unisubmit)** — explainable collaborator matching combining hybrid search, duplicate detection, and measurable recommendation quality.
 
-### Live products
+<sub>NEXT.JS · REACT · TYPESCRIPT · SUPABASE · M-PESA · VITE · WORKBOX · VITEST · SPRING BOOT · JAVA · POSTGRESQL · PGVECTOR · PYTHON</sub>
 
-| Project | What it is |
-| --- | --- |
-| **[Chuka Hostels ↗](https://www.chukahostels.co.ke)** | Student-housing marketplace for Chuka University — walked-and-photographed listings, M-Pesa paywall, paying users. |
-| **[Inspection Tracker ↗](https://inspection-tracker-two.vercel.app/)** | Field inspection logging and reporting. |
-| **[Best Western Plus Meridian ↗](https://best-western-plus-meridian-hotel.vercel.app/)** | Hotel site and operations front end. |
-| **[UniSubmit ↗](https://github.com/Brian-Mbuya/unisubmit)** | Coursework submission tooling for universities. |
-
-### What I work with
-
-TypeScript · Next.js (App Router, Server Components/Actions) · React · Node · Postgres / Supabase · Tailwind · M-Pesa Daraja & Paystack · Vercel
-
-### Open to
-
-Full-stack · backend · product engineering roles.
-
-[LinkedIn](https://www.linkedin.com/in/brian-mbuya-23225541b) · [Email](mailto:mbuyabrian290@gmail.com) · [GitHub](https://github.com/Brian-Mbuya)
+<sub>Always leave a place way better than you found it.</sub>
